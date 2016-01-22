@@ -483,7 +483,7 @@ def checkPattern(inputfile,pattern,what,arg):
 
 def main(debug):
     #Message to be displayed in case help is needed to run the exectuable
-    helpstr="Usage : smapFilter.py  -i <inputBAMfile> [-g <graphSpecieID>] [-h <hostSpecieID>] [-o <outputBamFilesPrefix>] [-k -v] [-f <alignementScoreFieldInBAM>]\n\n"
+    helpstr="Usage : smapFilter.py  -i <inputBAMfile> [-g <graftSpecieID>] [-h <hostSpecieID>] [-o <outputBamFilesPrefix>] [-k -v] [-f <alignementScoreFieldInBAM>]\n\n"
     helpstr+=" -i inputBAMfile.bam  : A bam file coming from the simultaneous mapping of a FASTQ"
     helpstr+="   on two (or more?) reference genome (i.e. mouse and human for a xenograft sample experiment)\n"
     helpstr+=" -g hs  : a pattern corresponding to the beginning of chromosome name of the graft specie. (Default hs)\n"
